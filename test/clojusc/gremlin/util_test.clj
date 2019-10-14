@@ -22,5 +22,5 @@
          (util/uuid->time-date test-uuid))))
 
 (deftest uuid->rfc3339
-  (is (= "2019-10-14T17:04:05-0500"
+  (is (= "2019-10-14T22:04:05+0000"
          (util/uuid->rfc3339 test-uuid))))
