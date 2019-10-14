@@ -1,0 +1,9 @@
+language: clojure
+script:
+  - lein build
+jdk:
+  - openjdk8
+  - openjdk11
+notifications:
+  email:
+    - oubiwann@gmail.com
