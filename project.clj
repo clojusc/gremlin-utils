@@ -1,4 +1,4 @@
-(defproject clojusc/gremlin-utils "0.1.1"
+(defproject clojusc/gremlin-utils "0.2.0"
   :description "Apache TinkerPop Gremlin Utility plugins/functions written in Clojure"
   :url "https://github.com/clojusc/gremlin-utils"
   :license {
