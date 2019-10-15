@@ -7,8 +7,8 @@
   :exclusions [
     [org.clojure/clojure]]
   :dependencies [
-    [com.tinkerpop.gremlin/gremlin-groovy "2.6.0"]
-    [org.clojure/clojure "1.10.1"]]
+    [org.clojure/clojure "1.10.1"]
+    [org.apache.tinkerpop/gremlin-core "3.4.1"]]
   :aot [
     clojusc.gremlin.plugins.util]
   :profiles {

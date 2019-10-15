@@ -40,9 +40,3 @@
 (defn uuid->rfc3339
   [^String uuid]
   (.format (new SimpleDateFormat rfc3339) (uuid->time-date uuid)))
-
-;; Wrappers for use in Groovy/Gremlin shells:
-(def uuid2Long #(uuid->long (read-string %))
-(def uuid2TimeLong #(uuid->time-ns (read-string %))
-(def uuid2RFC3339 #(uuid->rfc3339 (read-string %))
-(def uuid2TDate #(uuid->time-date (read-string %))
